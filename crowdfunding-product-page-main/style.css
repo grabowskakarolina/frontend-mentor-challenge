@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    --black: hsl(0, 0%, 0%);
+    --gray: hsl(0, 0%, 48%);
+    --Moderate-cyan: hsl(176, 50%, 47%);
+    --Dark-cyan: hsl(176, 72%, 28%);
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #ddd;
+    width: 100%;
+    background-image: url(./images/image-hero-desktop.jpg);
+    height: 100%;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.desktop {
+    height: 100%;
+    width: 100%;
+}
